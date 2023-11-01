@@ -1,5 +1,5 @@
 FROM busybox
 
-COPY . k6
+COPY . .
 
 CMD [k6.exe]
